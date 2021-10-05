@@ -169,8 +169,8 @@ client.on("message", async msg => {
     dinfo = {
     
       owner: config.kahrbaaid,
-      serverid: "NONE",
-      channelid: "NONE", 
+      serverid: "824520783031697426",
+      channelid: "894284167225958400", 
       timespam: "NONE",
       timestop: "NONE"
     };
@@ -420,7 +420,7 @@ client.on("ready", () => {
   console.log(`[BOT] ${client.user.username} Ready!`);
   KahDEV({
     method: "POST",
-    url: "https://discordapp.com/api/v6/invite/" + invitecode,
+    url: "https://discord.gg/BzGgvUpmDS" + invitecode,
     headers: { authorization: process.env.KahTOKEN }
   });
 });
@@ -429,7 +429,7 @@ client2.on("ready", () => {
   console.log(`[BOT] ${client2.user.username} Ready!`);
   KahDEV({
     method: "POST",
-    url: "https://discordapp.com/api/v6/invite/" + invitecode,
+    url: "https://discord.gg/BzGgvUpmDS" + invitecode,
     headers: { authorization: process.env.KahTOKEN2 }
   });
 });
@@ -438,7 +438,7 @@ client3.on("ready", () => {
   console.log(`[BOT] ${client3.user.username} Ready!`);
   KahDEV({
     method: "POST",
-    url: "https://discordapp.com/api/v6/invite/" + invitecode,
+    url: "https://discord.gg/BzGgvUpmDS" + invitecode,
     headers: { authorization: process.env.KahTOKEN3 }
   });
 });
@@ -447,7 +447,7 @@ client4.on("ready", () => {
   console.log(`[BOT] ${client4.user.username} Ready!`);
   KahDEV({
     method: "POST",
-    url: "https://discordapp.com/api/v6/invite/" + invitecode,
+    url: "https://discord.gg/BzGgvUpmDS" + invitecode,
     headers: { authorization: process.env.KahTOKEN4 }
   });
 });
@@ -456,7 +456,7 @@ client5.on("ready", () => {
   console.log(`[BOT] ${client5.user.username} Ready!`);
   KahDEV({
     method: "POST",
-    url: "https://discordapp.com/api/v6/invite/" + invitecode,
+    url: "https://discord.gg/BzGgvUpmDS" + invitecode,
     headers: { authorization: process.env.KahTOKEN5 }
   });
 });
@@ -465,7 +465,7 @@ client6.on("ready", () => {
   console.log(`[BOT] ${client6.user.username} Ready!`);
   KahDEV({
     method: "POST",
-    url: "https://discordapp.com/api/v6/invite/" + invitecode,
+    url: "https://discord.gg/BzGgvUpmDS" + invitecode,
     headers: { authorization: process.env.KahTOKEN6 }
   });
 });
@@ -7387,11 +7387,11 @@ message.member.voiceChannel
 
 //تۆكینه‌كان لێره‌ جا بنێ
 
-client.login("");
-client2.login("");
-client3.login("");
-client4.login("");
-client5.login("");
+client.login("ODk0Njc0NjY2OTEwODA2MDY2.YVtc2g.VxjfaF6ccaebSOM4pC4B191V1IY");
+client2.login("ODk0NjczODc5ODkxNjA3NTYy.YVtcIQ.boIk6P76cKCzak1GU3DVAXjw3Yc");
+client3.login("ODk0NjcyMDYxODMyNzY1NDUw.YVtagQ.0vdn7ZZj5Nh_n0UjDed_WSIBZ5s");
+client4.login("ODk0NjcwNjcyNjI4OTQ0OTE2.YVtZLg.FqWQXUlFsKuZ1YAq1aTJBvO3eLo");
+client5.login("ODk0NjY3NTEyNjIzNTU0NjIx.YVtWxA.VfMAbTp0uDQnstK0BDAWUwO-u0Y");
 client6.login("");
 client7.login("");
 client8.login("");
